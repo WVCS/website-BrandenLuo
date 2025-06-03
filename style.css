@@ -1,15 +1,40 @@
-h2 {
-  color:#451978;
-  text-decoration-line: underline;
-  text-decoration-style: wavy;
-  letter-spacing: 3px;
-  text-shadow: 2px 2px 5px purple;
+nav {
+  list-style-type: none;
+  width: 100%;
+  background-color: #890;
+  top: 0;
+  left: 0;
+  position: fixed;
 }
 
-img:hover {
-  border: 22px solid #777;
+li a{
+  color: #16;
+  text-decoration: none;
+  display: block;
+  float: left; 
+  padding: 20px 50px;
+}
+
+li a:hover {
+  background-color: pink;
+  color: black;
 }
 
 body {
-  background-color: lightblue
+h2{
+  color: lightblue;
+  text-shadow: 2px 1px; 
+  text-decoration-line: underline;
+  text-decoration-color: green;
+  text-decoration-style: dotted;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
+
+img:hover {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 400px;
+ }
+  background-color: #788521;
+  }
