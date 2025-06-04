@@ -1,7 +1,7 @@
 nav {
   list-style-type: none;
-  width: 100%;
-  background-color: #890;
+  width: 500%;
+  background-color: black;
   top: 0;
   left: 0;
   position: fixed;
@@ -23,18 +23,18 @@ li a:hover {
 body {
 h2{
   color: lightblue;
-  text-shadow: 2px 1px; 
-  text-decoration-line: underline;
-  text-decoration-color: green;
+  text-shadow: 1px 1px; 
+  text-decoration-line: overline underline;
+  text-decoration-color: red;
   text-decoration-style: dotted;
   font-family: "Lucida Console", "Courier New", monospace;
 }
 
 img:hover {
-  border: 1px solid #ddd;
+  border: 1px solid #124;
   border-radius: 4px;
   padding: 5px;
   width: 400px;
  }
-  background-color: #788521;
+  background-color: blue;
   }
